@@ -12,10 +12,8 @@ REV_CLASS_MAP = {
     3: "none"
 }
 
-
 def mapper(val):
     return REV_CLASS_MAP[val]
-
 
 model = load_model("rock-paper-scissors-model.h5")
 
